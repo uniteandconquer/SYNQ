@@ -119,5 +119,36 @@ https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.0
 
 https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.1
 
+---
+
+## SYNQ version 0.2.2 beta.
+
+This version contains some bug-fixes and some more quality of life additions to the features that were introduced in the previous release.
+
+### What's new?
+
+- Confirm before forwarding message to a chat group.
+
+- Saved messages are now identifiable by an icon.
+
+- Non-expired messages that have been saved can now be deleted.
+
+- Saved messages that have expired are now editable. These messages can be loaded into the Editor screen but will be sent as a new message since editing expired messages is not possible.
+
+- Added 'Load last draft' snack-bar to Editor Screen if the last Editor session was successful (message posted). If unsuccessful the Editor Screen will still display the 'Load draft' modal dialog.
+
+- Modified 'Save' message action to context dependent 'Save' or 'Delete' message action.
+
+- Fixed issue where the 'User header' was not being displayed properly (misaligned avatar and username/address).
+
+- Fixed the issue where replied to messages were not rendered correctly when in selection mode.
+
+- Fixed issue where interactive components were still interactive in selection mode, causing the Image Gallery, User Info screen or Save/Delete dialog to be displayed when tapping on such a component while selecting messages.
+
+- Message selector snack-bar is now a floating snack-bar and will not affect the chat messages list. The selector will be displayed at the top of the list unless the user has scrolled all the way to the top, in which case the snack-bar will be displayed at the bottom.
+
+- Modified all Chat Messages Tab snack-bar styles. This should solve most if not all remaining 'jumpy' chat messages issues.
+
+https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.2
 
 
