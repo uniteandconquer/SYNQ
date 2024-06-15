@@ -151,4 +151,53 @@ This version contains some bug-fixes and some more quality of life additions to 
 
 https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.2
 
+---
+
+## SYNQ version 0.2.3 beta.
+
+### What's new?
+
+- Clickable legacy web and Qortal links (including group invite links).
+- Qortal links are automatically opened in a Qortal gateway of user's choice.
+- YouTube links are optionally opened in Invidious instance of user's choice.
+- Optional legacy web link and image previews as well as Qortal gateway previews.
+- Previews are fetched manually by the user or automatically if user has added the domain to their trusted domains list.
+- User tagging. Search out of all registered names for a user to tag them in a chat message.
+- User tag and replied to user detection. Chat group item will display an '@' badge with the number of times you've been tagged and/or replied to.
+- User tags are clickable, User Info screen will be displayed after tapping on a user tag.
+- Messages that include your user tag will be displayed more prominently.
+- Added Group Info screen with group avatar, group info, members list, clickable member items and copy group invite link to clipboard.
+- Group Info screen is accessible through Chat Screen header 'info icon', tapping on group avatar in Chat Groups tab or through the Group Management screen.
+- User level badge image and text in message header (including indication when penalized).
+- Expanded replied to messages include posted timestamp.
+- Added 'Copy message text to clipboard' message action.
+- Animated QDN GIF image detection and support.
+- QDN file attachment detection and download (download file size limit is 25 Mb to reduce load on public nodes).
+- Last active time and last activity info were added to User and Account Info screens.
+- Copy account address to clipboard action icon was added to User and Account Info screens.
+- Additions and improvements to General Settings screen.
+
+## Improvements and fixes:
+
+- Chat messages will no longer disappear when checking for new messages.
+- Chat history buttons moved from the bottom to the top of the messages list (more intuitive).
+- Dismiss-able snack-bar in Chat Messages tab.
+- Fixed historic chat message ordering (by the time that they were posted instead of by the time that they were saved).
+- Fixed vertical message list shifting and low performance scrolling when selection mode is enabled in chats with a lot of messages.
+- Fixed top-to-bottom and vice versa jumping selector component when scrolling.
+- Improved overall Chat Messages tab stability.
+- Fixed messages list refreshing after forwarding message to PM (or sometimes after sending a message).
+- Fixed 'Select all' bug when selecting non-expired messages for deletion.
+- Barely visible placeholder text in Editor screen when in light mode was fixed.
+- Invisible images action icon in Editor screen when in light mode was fixed.
+- Fixed Watchlists screen login button bug.
+- Upgraded Watchlists screen drop-down component.
+- Fixed faulty 'animated' attribute filter in QDN gallery.
+
+
+https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.3
+
+
+
+
 
