@@ -197,7 +197,13 @@ https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.2
 
 https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.3
 
+---
+
+## SYNQ version 0.2.4 beta.
 
 
+I've added support for GIF and sticker attachments directly from your Gboard. I don't know when the next update will be and since this is such a convenient feature I figured I'd release it as a 'bonus' update. Also fixed the issue where the 'on press' visual feedback when pressing the user info header in a chat message was not showing.
+
+https://github.com/uniteandconquer/SYNQ/releases/tag/SYNQ-v0.2.4
 
 
